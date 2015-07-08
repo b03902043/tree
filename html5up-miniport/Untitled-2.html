@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>無標題文件</title>
+<style type="text/css">
+#apDiv1 {
+	position: absolute;
+	left: 187px;
+	top: 75px;
+	width: 221px;
+	height: 180px;
+	z-index: 1;
+}
+#apDiv2 {
+	position: absolute;
+	left: 506px;
+	top: 124px;
+	width: 240px;
+	height: 80px;
+	z-index: 2;
+	overflow: auto;
+}
+#apDiv3 {
+	position: absolute;
+	left: 25px;
+	top: 382px;
+	width: 173px;
+	height: 195px;
+	z-index: 3;
+}
+</style>
+<script src="SpryEffects.js" type="text/javascript"></script>
+<script type="text/javascript">
+function MM_effectGrowShrink(targetElement, duration, from, to, toggle, referHeight, growFromCenter)
+{
+	Spry.Effect.DoGrow(targetElement, {duration: duration, from: from, to: to, toggle: toggle, referHeight: referHeight, growCenter: growFromCenter});
+}
+</script>
+</head>
+
+<body>
+<div id="apDiv1"><img src="../Downloads/77b1OOOPIC16.jpg" width="200" height="200" /></div>
+<div id="apDiv2">
+  <p>rwerewrewrwerewrewr</p>
+  <p>rewrewrewrwerwerwe</p>
+  <p>rewrwerewrewrewrew</p>
+  <p>rewrewrewrwerew</p>
+  <p>rewrewrewrewrew</p>
+</div>
+<div id="apDiv3"><img src="../Downloads/2011022609143857.jpg" width="373" height="413" onclick="MM_effectGrowShrink('apDiv1', 1000, '100%', '0%', true, false, true);MM_effectGrowShrink('apDiv2', 1000, '100%', '0%', true, false, true)" /></div>
+</body>
+</html>
